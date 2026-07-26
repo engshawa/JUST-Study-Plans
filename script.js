@@ -4,132 +4,116 @@ const facultiesData = [
         name: "كلية الطب",
         icon: "🩺",
         majors: [
-            { name: "دكتور في الطب", icon: "👨‍⚕️", image: "images/medicine_md.png" },
-            { name: "الإدارة والسياسات الصحية", icon: "📊", image: "images/health_policy.png" }
+            { name: "دكتور في الطب", icon: "👨‍⚕️", image: "images/medicine_md.jpg" },
+            { name: "الإدارة والسياسات الصحية", icon: "📊", image: "images/health_policy.jpg" }
         ]
     },
     {
         name: "كلية العلوم الطبية التطبيقية",
         icon: "🔬",
         majors: [
-            { name: "العلوم الطبية المخبرية", icon: "🧪", image: "images/lab_sciences.png" },
-            { name: "الإسعاف والطوارئ", icon: "🚑", image: "images/emergency.png" },
-            { name: "تكنولوجيا الأشعة", icon: "🩻", image: "images/radiology.png" },
-            { name: "البصريات", icon: "👓", image: "images/optometry.png" },
-            { name: "العلاج الطبيعي", icon: "🦵", image: "images/physical_therapy.png" },
-            { name: "العلاج الوظيفي", icon: "👐", image: "images/occupational_therapy.png" },
-            { name: "السمع والنطق", icon: "🗣️", image: "images/speech_audiology.png" },
-            { name: "العلاج التنفسي", icon: "🫁", image: "images/respiratory_therapy.png" },
-            { name: "تكنولوجيا التخدير", icon: "💉", image: "images/anesthesia.png" },
-            { name: "علم النفس السريري", icon: "🧠", image: "images/clinical_psychology.png" },
-            { name: "التكنولوجيا الرقمية في صناعة الأسنان", icon: "🦷", image: "images/dental_tech.png" },
-            { name: "فني صحة الفم والأسنان", icon: "🪥", image: "images/dental_hygiene.png" }
+            { name: "العلوم الطبية المخبرية", icon: "🧪", image: "images/lab_sciences.jpg" },
+            { name: "الإسعاف والطوارئ", icon: "🚑", image: "images/emergency.jpg" },
+            { name: "تكنولوجيا الأشعة", icon: "🩻", image: "images/radiology.jpg" },
+            { name: "البصريات", icon: "👓", image: "images/optometry.jpg" },
+            { name: "العلاج الطبيعي", icon: "🦵", image: "images/physical_therapy.jpg" },
+            { name: "العلاج الوظيفي", icon: "👐", image: "images/occupational_therapy.jpg" },
+            { name: "السمع والنطق", icon: "🗣️", image: "images/speech_audiology.jpg" },
+            { name: "العلاج التنفسي", icon: "🫁", image: "images/respiratory_therapy.jpg" },
+            { name: "تكنولوجيا التخدير", icon: "💉", image: "images/anesthesia.jpg" }
         ]
     },
     {
         name: "كلية الهندسة",
         icon: "⚙️",
         majors: [
-            { name: "الهندسة الكيميائية", icon: "⚗️", image: "images/chem_eng.png" },
-            { name: "الهندسة المدنية", icon: "🏗️", image: "images/civil_eng.png" },
-            { name: "الهندسة الكهربائية", icon: "⚡", image: "images/elec_eng.png" },
-            { name: "الهندسة الميكانيكية", icon: "⚙️", image: "images/mech_eng.png" },
-            { name: "الهندسة الطبية الحيوية", icon: "🦾", image: "images/biomed_eng.png" },
-            { name: "الهندسة الصناعية", icon: "🏭", image: "images/industrial_eng.png" },
-            { name: "هندسة الطيران", icon: "✈️", image: "images/aero_eng.png" },
-            { name: "تكنولوجيا صيانة الطائرات", icon: "🛠️", image: "images/aircraft_maint.png" },
-            { name: "هندسة تصميم وتطوير المنتج", icon: "📐", image: "images/product_design.png" },
-            { name: "الهندسة النووية", icon: "☢️", image: "images/nuclear_eng.png" },
-            { name: "تكنولوجيا الأنظمة الكهربائية الذكية", icon: "🔌", image: "images/smart_grid.png" },
-            { name: "تكنولوجيا الطائرات المسيرة", icon: "🚁", image: "images/drone_tech.png" }
+            { name: "الهندسة الكيميائية", icon: "⚗️", image: "images/chem_eng.jpg" },
+            { name: "الهندسة المدنية", icon: "🏗️", image: "images/civil_eng.jpg" },
+            { name: "الهندسة الكهربائية", icon: "⚡", image: "images/elec_eng.jpg" },
+            { name: "الهندسة الميكانيكية", icon: "⚙️", image: "images/mech_eng.jpg" },
+            { name: "الهندسة الطبية الحيوية", icon: "🦾", image: "images/biomed_eng.jpg" },
+            { name: "الهندسة الصناعية", icon: "🏭", image: "images/industrial_eng.jpg" },
+            { name: "هندسة الطيران", icon: "✈️", image: "images/aero_eng.jpg" },
+            { name: "تكنولوجيا صيانة الطائرات", icon: "🛠️", image: "images/aircraft_maint.jpg" },
+            { name: "هندسة تصميم وتطوير المنتج", icon: "📐", image: "images/product_design.jpg" },
+            { name: "الهندسة النووية", icon: "☢️", image: "images/nuclear_eng.jpg" },
+            { name: "تكنولوجيا الطائرات المسيرة", icon: "🚁", image: "images/drone_tech.jpg" }
         ]
     },
     {
         name: "كلية الصيدلة",
         icon: "💊",
         majors: [
-            { name: "الصيدلة", icon: "💊", image: "images/pharmacy.png" },
-            { name: "دكتور صيدلة", icon: "👨‍🔬", image: "images/pharm_d.png" },
-            { name: "التصنيع الدوائي والبيولوجي", icon: "🧫", image: "images/biopharm.png" },
-            { name: "علم التجميل التطبيقي", icon: "💄", image: "images/cosmetics.png" }
+            { name: "الصيدلة", icon: "💊", image: "images/pharmacy.jpg" },
+            { name: "دكتور صيدلة", icon: "👨‍🔬", image: "images/pharm_d.jpg" },
+            { name: "التصنيع الدوائي والبيولوجي", icon: "🧫", image: "images/biopharm.jpg" }
         ]
     },
     {
         name: "كلية التمريض",
         icon: "🏥",
         majors: [
-            { name: "التمريض", icon: "👩‍⚕️", image: "images/nursing.png" },
-            { name: "القبالة", icon: "👶", image: "images/midwifery.png" }
+            { name: "التمريض", icon: "👩‍⚕️", image: "images/nursing.jpg" },
+            { name: "القبالة", icon: "👶", image: "images/midwifery.jpg" }
         ]
     },
     {
         name: "كلية طب الأسنان",
         icon: "🦷",
         majors: [
-            { name: "دكتور في طب الأسنان", icon: "🦷", image: "images/dentistry.png" }
+            { name: "دكتور في طب الأسنان", icon: "🦷", image: "images/dentistry.jpg" }
         ]
     },
     {
         name: "كلية الزراعة",
         icon: "🌱",
         majors: [
-            { name: "التربة والري", icon: "💧", image: "images/soil_irrigation.png" },
-            { name: "الزراعة الرقمية", icon: "🚜", image: "images/digital_agri.png" },
-            { name: "التغذية السريرية", icon: "🥗", image: "images/clinical_nutrition.png" },
-            { name: "تكنولوجيا وعلوم النبات", icon: "🌿", image: "images/plant_sciences.png" },
-            { name: "تكنولوجيا وعلوم الحيوان", icon: "🐄", image: "images/animal_sciences.png" }
+            { name: "التغذية السريرية", icon: "🥗", image: "images/clinical_nutrition.jpg" },
+            { name: "تكنولوجيا وعلوم النبات", icon: "🌿", image: "images/plant_sciences.jpg" },
+            { name: "تكنولوجيا وعلوم الحيوان", icon: "🐄", image: "images/animal_sciences.jpg" }
         ]
     },
     {
         name: "كلية الطب البيطري",
         icon: "🐾",
         majors: [
-            { name: "دكتور في الطب البيطري", icon: "🐾", image: "images/vet_med.png" }
+            { name: "دكتور في الطب البيطري", icon: "🐾", image: "images/vet_med.jpg" }
         ]
     },
     {
         name: "كلية تكنولوجيا الحاسوب والمعلومات",
         icon: "💻",
         majors: [
-            { name: "هندسة الحاسوب", icon: "💻", image: "images/comp_eng.png" },
-            { name: "علوم الحاسوب", icon: "🖥️", image: "images/cs.png" },
-            { name: "هندسة وأمن شبكات الحاسوب", icon: "🌐", image: "images/network_security.png" },
-            { name: "هندسة البرمجيات", icon: "⌨️", image: "images/se.png" },
-            { name: "الأمن السيبراني", icon: "🛡️", image: "images/cyber_security.png" },
-            { name: "علم البيانات", icon: "📈", image: "images/data_science.png" },
-            { name: "الذكاء الاصطناعي", icon: "🤖", image: "images/ai.png" },
-            { name: "إنترنت الأشياء", icon: "📡", image: "images/iot.png" },
-            { name: "تصميم وتطوير ألعاب الحاسوب", icon: "🎮", image: "images/game_dev.png" },
-            { name: "نظم المعلومات الصحية", icon: "🏥", image: "images/health_informatics.png" },
-            { name: "علم الروبوتات", icon: "🤖", image: "images/robotics.png" }
+            { name: "هندسة الحاسوب", icon: "💻", image: "images/comp_eng.jpg" },
+            { name: "علوم الحاسوب", icon: "🖥️", image: "images/cs.jpg" },
+            { name: "هندسة وأمن شبكات الحاسوب", icon: "🌐", image: "images/network_security.jpg" },
+            { name: "هندسة البرمجيات", icon: "⌨️", image: "images/se.jpg" },
+            { name: "الأمن السيبراني", icon: "🛡️", image: "images/cyber_security.jpg" },
+            { name: "علم البيانات", icon: "📈", image: "images/data_science.jpg" },
+            { name: "الذكاء الاصطناعي", icon: "🤖", image: "images/ai.jpg" },
+            { name: "إنترنت الأشياء", icon: "📡", image: "images/iot.jpg" },
+            { name: "تصميم وتطوير ألعاب الحاسوب", icon: "🎮", image: "images/game_dev.jpg" },
+            { name: "نظم المعلومات الصحية", icon: "🏥", image: "images/health_informatics.jpg" },
+            { name: "علم الروبوتات", icon: "🤖", image: "images/robotics.jpg" }
         ]
     },
     {
         name: "كلية العلوم والآداب",
         icon: "📐",
         majors: [
-            { name: "اللغة الإنجليزية واللغويات التطبيقية", icon: "📚", image: "images/english.png" },
-            { name: "الرياضيات", icon: "🔢", image: "images/math.png" },
-            { name: "التقانات الحيوية والهندسة الوراثية", icon: "🧬", image: "images/biotech.png" },
-            { name: "الكيمياء التطبيقية", icon: "🧪", image: "images/chemistry.png" },
-            { name: "الفيزياء التطبيقية", icon: "⚛️", image: "images/physics.png" }
-        ]
-    },
-    {
-        name: "معهد النانوتكنولوجي",
-        icon: "⚛️",
-        majors: [
-            { name: "النانوتكنولوجي وعلم المواد", icon: "🔬", image: "images/nanotech.png" }
+            { name: "اللغة الإنجليزية واللغويات التطبيقية", icon: "📚", image: "images/english.jpg" },
+            { name: "الرياضيات", icon: "🔢", image: "images/math.jpg" },
+            { name: "التقانات الحيوية والهندسة الوراثية", icon: "🧬", image: "images/biotech.jpg" },
+            { name: "الكيمياء التطبيقية", icon: "🧪", image: "images/chemistry.jpg" },
+            { name: "الفيزياء التطبيقية", icon: "⚛️", image: "images/physics.jpg" }
         ]
     },
     {
         name: "كلية العمارة والتصميم",
         icon: "🏛️",
         majors: [
-            { name: "العمارة", icon: "🏛️", image: "images/architecture.png" },
-            { name: "هندسة التخطيط الحضري والبيئي", icon: "🏙️", image: "images/urban_planning.png" },
-            { name: "تكنولوجيا الأفلام والوسائط المتعددة", icon: "🎬", image: "images/film_tech.png" },
-            { name: "تصميم الرسوم المتحركة والألعاب", icon: "🎨", image: "images/animation_design.png" }
+            { name: "العمارة", icon: "🏛️", image: "images/architecture.jpg" },
+            { name: "هندسة التخطيط الحضري والبيئي", icon: "🏙️", image: "images/urban_planning.jpg" }
         ]
     }
 ];
