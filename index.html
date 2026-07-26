@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخطط الدراسية - جامعة العلوم والتكنولوجيا الأردنية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- الهيدر -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-area">
+                <!-- تم تعديل المسار هنا ليقرأ الصورة من المجلد الرئيسي مباشرة -->
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/23/Jordan_University_of_Science_and_Technology_logo.png" alt="شعار JUST" class="just-logo">
+
+                <div>
+                    <h1>جامعة العلوم والتكنولوجيا الأردنية</h1>
+                    <p class="subtitle">دليل الخطط الدراسية للتخصصات الأكاديمية</p>
+                </div>
+            </div>
+            <div class="developer-badge">
+                <span>إعداد وتطوير</span>
+                <strong>المهندس محمد الشوا</strong>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- شريط التنقل ورز الرجوع -->
+        <div id="navBar" class="nav-bar" style="display: none;">
+            <button class="back-btn" onclick="goBack()">➔ العودة للخطوة السابقة</button>
+            <span id="currentPath" class="current-path"></span>
+        </div>
+
+        <!-- 1. واجهة الكليات -->
+        <section id="facultiesSection" class="view-section">
+            <h2 class="section-title">اختر الكلية للبدء</h2>
+            <div id="facultiesGrid" class="cards-grid"></div>
+        </section>
+
+        <!-- 2. واجهة التخصصات -->
+        <section id="majorsSection" class="view-section" style="display: none;">
+            <h2 id="facultyTitle" class="section-title">تخصصات الكلية</h2>
+            <div id="majorsGrid" class="cards-grid"></div>
+        </section>
+
+        <!-- 3. واجهة عرض الخطة -->
+        <section id="planSection" class="view-section" style="display: none;">
+            <div class="plan-display-card">
+                <div class="plan-header">
+                    <h3 id="selectedTitle">الخطة الدراسية</h3>
+                    <a id="downloadBtn" href="#" target="_blank" class="download-btn" download>تحميل/فتح الصورة بحجم كامل 🔍</a>
+                </div>
+                <div class="image-wrapper">
+                    <img id="planImage" src="" alt="صورة الخطة الدراسية" onclick="openFullscreen(this)">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>جميع الحقوق محفوظة © 2026 - جامعة العلوم والتكنولوجيا الأردنية JUST</p>
+        <p class="credit">تم التطوير بواسطة <span>المهندس محمد الشوا</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
